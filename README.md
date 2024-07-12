@@ -93,7 +93,3 @@ orange
 - Make sure Python is installed on your system and added to your PATH environment variable.
 
 - This script assumes the input file is a text file where each line is treated as a separate item.
-
----
-
-This introduction helps users understand the purpose and functionality of the tool before diving into installation and usage instructions. Adjust the content as per your specific tool and repository details.

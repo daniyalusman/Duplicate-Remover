@@ -15,8 +15,21 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
      - Select "Use Git from the Windows Command Prompt" when asked about adjusting your PATH environment.
      - You can leave other options at their default settings or adjust them according to your preference.
 
-3. **Verify Git Installation:**
-   - Open a new Command Prompt window and type:
+3. **Add Git to the PATH Environment Variable (if necessary):**
+   - If Git is installed but not recognized, it's likely not added to the PATH environment variable. Adding Git to the PATH allows the system to locate the Git executable from any command line interface.
+
+   **Find Git installation path:**
+   - The default installation path is usually `C:\Program Files\Git\cmd`. Verify this location exists or find where Git is installed on your machine.
+
+   **Edit system PATH:**
+   - Open the Start Menu, type `env`, and choose "Edit the system environment variables".
+   - In the System Properties window, click on "Environment Variables".
+   - Under "System variables", scroll to find the "Path" variable and select it, then click "Edit".
+   - Click "New" and paste the path to your Git cmd folder (e.g., `C:\Program Files\Git\cmd`).
+   - Click "OK" to close all dialogs and apply these changes.
+
+   **Verify the change:**
+   - Close and reopen your Command Prompt or PowerShell and type:
      ```bash
      git --version
      ```

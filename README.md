@@ -2,12 +2,13 @@
 
 Duplicate Remover is a straightforward Python script designed to remove duplicate items from a text file and save the unique items to a new file.
 
-## Installation and Usage
+### Installation and Usage
 
-### Windows
+#### Windows
 
 1. **Ensure Python is Installed:**
    - If Python is not already installed on your system, download it from [python.org](https://www.python.org/downloads/) and follow the installation instructions.
+   - During the installation, ensure to check the box that says "Add Python to PATH".
 
 2. **Install Git:**
    - Download the Git installer for Windows from [git-scm.com](https://git-scm.com/download/win).
@@ -58,7 +59,7 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
    - The script will read the file, remove duplicates, and save the unique items to `duplicate_removed.txt` in the same directory.
    - You will see a confirmation message indicating the file has been saved successfully or an error message if the file does not exist.
 
-### Linux
+#### Linux
 
 1. **Install Python:**
    - If Python is not already installed on your system, you can install it using the package manager specific to your Linux distribution. For example, on Ubuntu or Debian-based systems, you can use:

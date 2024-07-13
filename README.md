@@ -76,23 +76,23 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
      ```
    - For other distributions, use the appropriate package manager for your system.
 
-3. **Clone the repository:**
+3. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/duplicate-remover.git
    ```
 
-4. **Navigate to the directory:**
+4. **Navigate to the Directory:**
    ```bash
    cd duplicate-remover
    ```
 
-5. **Run the script:**
+5. **Run the Script:**
    - Open a terminal and execute:
      ```bash
      python3 duplicate_remover.py
      ```
 
-6. **Enter the absolute file path:**
+6. **Enter the Absolute File Path:**
    - Provide the full path to the text file you want to process when prompted.
 
 7. **Result:**

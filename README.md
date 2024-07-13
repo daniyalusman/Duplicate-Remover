@@ -38,7 +38,7 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
 
 4. **Clone the Repository:**
    ```bash
-   git clone https://github.com/daniyalusman/Duplicate-Remover/
+   git clone https://github.com/daniyalusman/duplicate-remover/
    ```
 
 5. **Navigate to the Directory:**
@@ -78,7 +78,7 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
 
 3. **Clone the Repository:**
    ```bash
-   git clone https://github.com/daniyalusman/Duplicate-Remover/
+   git clone https://github.com/daniyalusman/duplicate-remover/
    ```
 
 4. **Navigate to the Directory:**

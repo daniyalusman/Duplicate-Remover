@@ -9,26 +9,35 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
 1. **Ensure Python is Installed:**
    - If Python is not already installed on your system, download it from [python.org](https://www.python.org/downloads/) and follow the installation instructions.
 
-2. **Clone the repository:**
+2. **Install Git:**
+   - Open Command Prompt as an administrator.
+   - Download and install Git using the following commands:
+     ```bash
+     curl -LO https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/PortableGit-2.40.0-64-bit.7z.exe
+     start PortableGit-2.40.0-64-bit.7z.exe
+     ```
+   - Follow the installer instructions to complete the installation. Ensure you select the option to use Git from the Windows Command Prompt.
+
+3. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/duplicate-remover.git
    ```
 
-3. **Navigate to the directory:**
+4. **Navigate to the directory:**
    ```bash
    cd duplicate-remover
    ```
 
-4. **Run the script:**
+5. **Run the script:**
    - Double-click the `duplicate_remover.py` file to run it, or open a command prompt and execute:
      ```bash
      python duplicate_remover.py
      ```
 
-5. **Enter the absolute file path:**
+6. **Enter the absolute file path:**
    - Provide the full path to the text file you want to process when prompted.
 
-6. **Result:**
+7. **Result:**
    - The script will read the file, remove duplicates, and save the unique items to `duplicate_removed.txt` in the same directory.
    - You will see a confirmation message indicating the file has been saved successfully or an error message if the file does not exist.
 
@@ -40,28 +49,35 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
      sudo apt update
      sudo apt install python3
      ```
-     Replace `apt` with your distribution's package manager if you're using a different Linux distribution.
 
-2. **Clone the repository:**
+2. **Install Git:**
+   - On Ubuntu or Debian-based systems, you can install Git using:
+     ```bash
+     sudo apt update
+     sudo apt install git
+     ```
+   - For other distributions, use the appropriate package manager for your system.
+
+3. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/duplicate-remover.git
    ```
 
-3. **Navigate to the directory:**
+4. **Navigate to the directory:**
    ```bash
    cd duplicate-remover
    ```
 
-4. **Run the script:**
+5. **Run the script:**
    - Open a terminal and execute:
      ```bash
      python3 duplicate_remover.py
      ```
 
-5. **Enter the absolute file path:**
+6. **Enter the absolute file path:**
    - Provide the full path to the text file you want to process when prompted.
 
-6. **Result:**
+7. **Result:**
    - The script will read the file, remove duplicates, and save the unique items to `duplicate_removed.txt` in the same directory.
    - You will see a confirmation message indicating the file has been saved successfully or an error message if the file does not exist.
 

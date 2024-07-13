@@ -34,26 +34,34 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
 
 ### Linux
 
-1. **Clone the repository:**
+1. **Install Python:**
+   - If Python is not already installed on your system, you can install it using the package manager specific to your Linux distribution. For example, on Ubuntu or Debian-based systems, you can use:
+     ```bash
+     sudo apt update
+     sudo apt install python3
+     ```
+     Replace `apt` with your distribution's package manager if you're using a different Linux distribution.
+
+2. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/duplicate-remover.git
    ```
 
-2. **Navigate to the directory:**
+3. **Navigate to the directory:**
    ```bash
    cd duplicate-remover
    ```
 
-3. **Run the script:**
+4. **Run the script:**
    - Open a terminal and execute:
      ```bash
      python3 duplicate_remover.py
      ```
 
-4. **Enter the absolute file path:**
+5. **Enter the absolute file path:**
    - Provide the full path to the text file you want to process when prompted.
 
-5. **Result:**
+6. **Result:**
    - The script will read the file, remove duplicates, and save the unique items to `duplicate_removed.txt` in the same directory.
    - You will see a confirmation message indicating the file has been saved successfully or an error message if the file does not exist.
 

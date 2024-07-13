@@ -9,12 +9,11 @@ Duplicate Remover is a straightforward Python script designed to remove duplicat
 1. **Ensure Python is Installed:**
    - If Python is not already installed on your system, download it from [python.org](https://www.python.org/downloads/) and follow the installation instructions.
 
-2. **Install Git:**
+2. **Install Git using Winget:**
    - Open Command Prompt as an administrator.
-   - Download and install Git using the following commands:
+   - Use the Windows Package Manager (winget) to install Git:
      ```bash
-     curl -LO https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/PortableGit-2.40.0-64-bit.7z.exe
-     start PortableGit-2.40.0-64-bit.7z.exe
+     winget install --id Git.Git -e --source winget
      ```
    - Follow the installer instructions to complete the installation. Ensure you select the option to use Git from the Windows Command Prompt.
 
